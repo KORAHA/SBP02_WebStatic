@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+div#wrap {
+	width: 300px;
+	border: 3px solid #08f;
+	padding: 20px;
+	margin: 30px auto;
+}
+
+h1 {
+	color: #f80;
+}
+
+span {
+	cursor: pointer;
+	color: purple;
+	text-decoration: underline;
+}
+
+span:hover {
+	color: #ffffff; /* 마우스를 올렸을 때 텍스트 색상 변경 */
+	background-color: gray; /* 마우스를 올렸을 때 배경 색상 변경 */
+}
+
+img {
+	display:inline-block;
+	width:150px;
+}
